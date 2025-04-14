@@ -9,3 +9,22 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    background-color: rgb(182, 179, 179);
+}
+.contenedor{
+    width: 30rem;
+}
+li{
+    list-style: none;
+}
+
+.iconoBasura {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+  }
+  
+.tarea:hover .iconoBasura {
+    opacity: 1;
+  }
